@@ -1,9 +1,12 @@
 {
-  "name": "vue-google-maps-community-fork",
+  "name": "@appbaseio/vue-google-maps-community-fork",
   "description": "Google Maps components for VueJS 3 maintained by the community",
-  "version": "0.3.1",
+  "version": "1.0.0-alpha.1",
   "private": false,
   "main": "src/main.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "Vue",
     "Vue.js",
@@ -51,7 +54,7 @@
   },
   "types": "types/index.d.ts",
   "dependencies": {
-    "@googlemaps/markerclusterer": "^2.0.3"
+    "@appbaseio/googlemaps-markerclusterer": "^1.0.0-alpha.1"
   },
   "directories": {
     "doc": "docs",
